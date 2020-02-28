@@ -143,6 +143,8 @@ Error message and password prompt
 
 <li>$:/config/RelinkOnRename</li>
 
+<li>$:/config/TimestampDisable</li>
+
 <li>$:/core</li>
 
 <li>$:/DefaultTiddlers</li>
@@ -161,6 +163,8 @@ Error message and password prompt
 
 <li>$:/language/DefaultNewTiddlerTitle</li>
 
+<li>$:/palette</li>
+
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
@@ -168,6 +172,12 @@ Error message and password prompt
 <li>$:/state/showeditpreview</li>
 
 <li>$:/state/sidebar</li>
+
+<li>$:/state/tab--1498284803</li>
+
+<li>$:/state/tab--1963855381</li>
+
+<li>$:/state/tab--86143343</li>
 
 <li>$:/state/tab-1749438307</li>
 
@@ -179,13 +189,25 @@ Error message and password prompt
 
 <li>$:/StoryList</li>
 
+<li>$:/temp/advancedsearch</li>
+
 <li>$:/temp/info-plugin</li>
 
 <li>$:/temp/search</li>
 
+<li>$:/theme</li>
+
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
+
+<li>$:/themes/tiddlywiki/vanilla/metrics/storyright</li>
+
+<li>$:/themes/tiddlywiki/vanilla/metrics/storywidth</li>
+
+<li>$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth</li>
+
+<li>Ambrosia</li>
 
 <li>Bluemarks</li>
 
@@ -223,6 +245,8 @@ Error message and password prompt
 
 <li>Joy</li>
 
+<li>Kessig Mountains</li>
+
 <li>Major Planets</li>
 
 <li>Masks</li>
@@ -234,6 +258,8 @@ Error message and password prompt
 <li>Mutants</li>
 
 <li>New Ellis</li>
+
+<li>New Ellis Mutants</li>
 
 <li>Niotaze</li>
 
@@ -279,6 +305,9 @@ Error message and password prompt
 <div id="storeArea" style="display:none;">
 <div created="20200224043805143" creator="Felix" modified="20200224043805143" modifier="Felix" title="$:/config/RelinkOnRename">
 <pre>yes</pre>
+</div>
+<div created="20200228144119236" creator="Felix" modified="20200228144119236" modifier="Felix" title="$:/config/TimestampDisable">
+<pre>no</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.21">
 <pre>{
@@ -9498,6 +9527,9 @@ Error message and password prompt
 <div created="20200119221040185" creator="Felix" modified="20200119221040854" modifier="Felix" title="$:/language/DefaultNewTiddlerTitle">
 <pre>New Entry</pre>
 </div>
+<div created="20200228144030528" creator="Felix" modified="20200228144553748" modifier="Felix" title="$:/palette">
+<pre>$:/palettes/SpartanNight</pre>
+</div>
 <div created="20200119220241029" modified="20200119220245005" title="$:/SiteSubtitle">
 <pre>wiki for sci-fi world Torus</pre>
 </div>
@@ -9510,20 +9542,32 @@ Error message and password prompt
 <div created="20200119220358859" creator="Felix" modified="20200224040858898" modifier="Felix" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20200119220256919" creator="Felix" modified="20200119224433807" modifier="Felix" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20200228154100150" creator="Felix" modified="20200228154100150" modifier="Felix" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/Filter</pre>
+</div>
+<div created="20200228144240993" creator="Felix" modified="20200228154046774" modifier="Felix" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Palette</pre>
+</div>
+<div created="20200228144338227" creator="Felix" modified="20200228144338227" modifier="Felix" title="$:/state/tab--86143343">
+<pre>$:/core/ui/ControlPanel/Plugins/Installed/Themes</pre>
+</div>
+<div created="20200119220256919" creator="Felix" modified="20200228154050827" modifier="Felix" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20200119220301895" creator="Felix" modified="20200119225338261" modifier="Felix" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/General</pre>
 </div>
-<div created="20200203015930247" creator="Felix" modified="20200224021211535" modifier="Felix" title="$:/state/tab/sidebar--595412856">
+<div created="20200203015930247" creator="Felix" modified="20200228154532413" modifier="Felix" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Open</pre>
 </div>
 <div created="20200119221035951" creator="F" modified="20200119221036561" modifier="Feli" title="$:/status/UserName">
 <pre>Felix</pre>
 </div>
-<div created="20200226030023658" creator="Felix" list="" modified="20200226060904731" modifier="Felix" title="$:/StoryList">
+<div created="20200228143926731" creator="Felix" list="" modified="20200228172429564" modifier="Felix" title="$:/StoryList">
 <pre></pre>
+</div>
+<div created="20200228154100148" creator="Felix" modified="20200228154108046" modifier="Felix" title="$:/temp/advancedsearch">
+<pre>[all[orphans]sort[title]]</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -9583,8 +9627,11 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200119225723180" creator="Felix" modified="20200226061530299" modifier="Felix" title="$:/temp/search">
+<div created="20200119225723180" creator="Felix" modified="20200228172909284" modifier="Felix" title="$:/temp/search">
 <pre></pre>
+</div>
+<div created="20200228144239120" creator="Felix" modified="20200228144239120" modifier="Felix" title="$:/theme">
+<pre>$:/themes/tiddlywiki/vanilla</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.21">
 <pre>{
@@ -9695,6 +9742,18 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div created="20200228152429905" creator="Felix" modified="20200228152500657" modifier="Felix" title="$:/themes/tiddlywiki/vanilla/metrics/storyright">
+<pre>1100px</pre>
+</div>
+<div created="20200228152435638" creator="Felix" modified="20200228152436065" modifier="Felix" title="$:/themes/tiddlywiki/vanilla/metrics/storywidth">
+<pre>1000px</pre>
+</div>
+<div created="20200228152441346" creator="Felix" modified="20200228152441817" modifier="Felix" title="$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth">
+<pre>1000px</pre>
+</div>
+<div created="20200228153650056" creator="Felix" modified="20200228153833450" modifier="Felix" title="Ambrosia">
+<pre>Ambrosia is the perfected version of Devilsnare. It heavily boosts the body's immune system and recovery, allowing a person to recover from wounds more quickly. It is less potent than Devilsnare, but has no averse side effects. It is fairly common on most mining colonies, space stations, and on Elysium, but is rare on Earth and Torus.</pre>
+</div>
 <div created="20200224024544526" creator="Felix" modified="20200224030244524" modifier="Felix" tags="clan" title="Bluemarks">
 <pre>|!Region | [[Petrified Forest]] |
 |!Hometown | Bluemark Camp |
@@ -9775,7 +9834,7 @@ As long as the addict gets one dose of the drug every week, they will have no si
 
 Cryogenic sleep has been shown to stop the progression of devilsnare withdrawal entirely.</pre>
 </div>
-<div created="20200203025457131" creator="Felix" modified="20200226060857874" modifier="Felix" tags="" title="Drugs">
+<div created="20200203025457131" creator="Felix" modified="20200228152704406" modifier="Felix" tags="" title="Drugs">
 <pre>!![[Devilsnare]]
 {{Devilsnare}}
 
@@ -9945,6 +10004,13 @@ Long-term use leads to the following symptoms if the drug is not taken regularly
 * Cold shaking in arms and legs
 * Vomiting, headaches, and tiredness</pre>
 </div>
+<div created="20200228163922794" creator="Felix" modified="20200228164122986" modifier="Felix" title="Kessig Mountains">
+<pre>The Kessig Mountains are a region in the [[Ptarmigan Shelf]] north of the [[Petrified Forest]].
+
+!! Notable Locations
+* [[Thunder Mountain]]
+* [[New Ellis]]</pre>
+</div>
 <div created="20200119223100811" creator="Felix" modified="20200224043630441" modifier="Felix" tags="" title="Major Planets">
 <pre>&lt;$list filter=&quot;[tag[planet]sort[title]]&quot;&gt;
 
@@ -10007,10 +10073,8 @@ Some abandoned [[Mining Colonies]] have been repurposed as mutant care centers. 
 
 On [[Torus]], two major groups of mutants have developed: one at [[Thunder Mountain]], and one in [[New Ellis]].</pre>
 </div>
-<div created="20200224041035507" creator="Felix" modified="20200224053030636" modifier="Felix" tags="town" title="New Ellis">
-<pre>New Ellis is the largest town in the [[Ptarmigan Shelf]], with a population of around ten thousand.
-
-//Article WIP//
+<div created="20200224041035507" creator="Felix" modified="20200228171444111" modifier="Felix" tags="town" title="New Ellis">
+<pre>New Ellis is the largest town in the [[Ptarmigan Shelf]], at the foot of the [[Kessig Mountains]] to the north. The town has a population of around ten thousand.
 
 !! Points of Interest
 
@@ -10020,8 +10084,6 @@ On [[Torus]], two major groups of mutants have developed: one at [[Thunder Mount
 
 ''Nightclub''
 
-''The Jolly Patron Bar''
-
 !! Factions
 
 ''[[New Ellis Mutants]]''
@@ -10029,12 +10091,17 @@ On [[Torus]], two major groups of mutants have developed: one at [[Thunder Mount
 ''[[The Masks|Masks]]'': The masks have a significant presence in New Ellis, controlling a small neighborhood.
 </pre>
 </div>
-<div created="20200224061221468" creator="Felix" modified="20200224062259042" modifier="Felix" title="Niotaze">
-<pre>Niotaze was developed on Torus by [[tbdtbdtbd]]
+<div created="20200228172437314" creator="Felix" modified="20200228172851041" modifier="Felix" title="New Ellis Mutants">
+<pre>The [[New Ellis]] mutants are the largest mutant group in the [[Ptarmigan Shelf]]. They are led by Dr. Hynkel, an experimenter who creates mutants using Elysian technology for genetic modification. His experiments are attempting to improve the human body without averse effects. Over a hundred mutants have survived the process. Most that leave the town join the [[Thunder Mountain Mutants|Thunder Mountain]]. </pre>
+</div>
+<div created="20200224061221468" creator="Felix" modified="20200228153223591" modifier="Felix" title="Niotaze">
+<pre>Niotaze was developed on Torus in [[New Ellis]]. It is manufactured there in an underground factory and sold all over the planet.
 
 !! Effects
 * Increased body temperature and cold resistance
-* Increased strength</pre>
+* Increased strength
+
+The user experiences cold shakes and fatigue after Niotaze wears off. Repeated use may cause a dependency on the drug, causing violent seizures and cold sweats if the user does not get a dosage often enough.</pre>
 </div>
 <div created="20200224040400683" creator="Felix" modified="20200224043522641" modifier="Felix" tags="town" title="Painted Gully">
 <pre>Painted Gully is a town in the western area of the [[Shimmering Desert]], close to the [[Petrified Forest]]. It is home to about a hundred citizens. Its inhabitants are mostly [[Clanless]] and [[Starchildren]], with a few citizens being members of other [[Clans]]. 
@@ -10059,12 +10126,13 @@ The [[Bluemarks]] and the [[Masks]] live in the petrified forest, and [[Thunder 
 
 Most train cars are equipped with gun turrets to dissuade any potential thieves. Drones fly along the train line to keep it clear of debris. </pre>
 </div>
-<div created="20200224030306881" creator="Felix" modified="20200224040927629" modifier="Felix" title="Ptarmigan Shelf">
+<div created="20200224030306881" creator="Felix" modified="20200228163731853" modifier="Felix" title="Ptarmigan Shelf">
 <pre>The Ptarmigan Shelf is the region of Torus where the [[Patrons]] landed. It is the second most populated area of Torus, behind [[Olympia]].
 
 !! Sub-Regions
 * [[Petrified Forest]]
-* [[Shimmering Desert]]</pre>
+* [[Shimmering Desert]]
+* [[Kessig Mountains]]</pre>
 </div>
 <div created="20200224034132320" creator="Felix" modified="20200226032104075" modifier="Felix" title="Shimmering Desert">
 <pre>The Shimmering Desert is a region of the [[Ptarmigan Shelf]] located to the east of the [[Petrified Forest]]. It is a cold desert where strong winds incessantly blow sand and snow from the east.
@@ -10075,7 +10143,7 @@ Points of interest in the desert include
 * [[Deepwell]]
 * [[Golden Sands]]</pre>
 </div>
-<div created="20200226060912010" creator="Felix" modified="20200226061409173" modifier="Felix" title="Silverwind">
+<div created="20200226060912010" creator="Felix" modified="20200228153241331" modifier="Felix" title="Silverwind">
 <pre>Silverwind is a psychedelic drug created mainly from [[Pale Silver]]. It is expensive and rare but requires only small doses to take effect.
 
 !!! Effects
@@ -10116,19 +10184,24 @@ Most religions denounce the surhumanist movement as &quot;seeking to subvert the
 
 The movement has also been accused of performing unethical experimentation on unwilling participants. The [[Mutants]] are largely a byproduct of surhumanist experimentation. Some famous mutant cases made headlines and caused the movement to be regarded in a negative light by most. </pre>
 </div>
-<div created="20200226030745070" creator="Felix" modified="20200226030817555" modifier="Felix" title="Thunder Mountain">
-<pre>WIP
+<div created="20200226030745070" creator="Felix" modified="20200228171432442" modifier="Felix" title="Thunder Mountain">
+<pre>Thunder Mountain is a mountain in the southwestern area of the [[Kessig Mountains]]. One of the [[Patrons|Patrons of Torus]] built a radio station at the summit with a powerful broadcast dish in order to improve communication across Torus. About fifty years ago, a group of [[Mutants]] took over the radio station and turned it into its own small town.
+
+The mutants have formed their own clan. They are openly hostile to any non-mutants that approach the town, and will unconditionally accept any mutants into the clan. 
 
 !! Thunder Mountain Radio
+
+The radio station can be heard pretty much anywhere in the [[Ptarmigan Shelf]]. Usually Hamcrest is the host of the show, and occasionally other mutants will chime in. The show uses a mix of music from old [[Earth]] and from the modern galaxy. Some of the music that is played is audio recordings that one might not ordinarily consider as music.
 
 !! Notable mutants
 * Hamcrest
 * Pipsqueak
 * Pinprick
 * Leomund
-* Richard</pre>
+* Richard
+* Sirenhead</pre>
 </div>
-<div created="20200120030818218" creator="Felix" modified="20200224044012512" modifier="Felix" tags="planet" title="Torus">
+<div created="20200120030818218" creator="Felix" modified="20200228154309199" modifier="Felix" tags="planet" title="Torus">
 <pre>!! History
 During the first days of FTL travel, twelve ships were fitted with FTL engines and told to lay a network of beacons across the universe to allow humanity to travel quickly between planets. They were forced to travel at conventional speeds due to the inaccuracies of infraspace travel when there was no beacon at the destination, but could easily return to Elysium by following the trail of beacons they had left behind. One of these ships had a piece of faulty equipment, and when they initiated their FTL engine to return home, they missed the target beacon. For the crew, this was a death sentence, and after a few frantic FTL jumps to try and return home, they were hopelessly lost among the stars. By a stroke of incredible luck, they had found themselves stranded next to the one thing humanity wanted most: an inhabitable planet. They descended to the surface and settled, used their stored food to begin farming, and established a colony, hoping that one day them or their descendents could reconnect to the Crown Empire.
 
@@ -10139,6 +10212,7 @@ Several centuries later, the conventional exploration of the galaxy caught up wi
 * [[Fauna of Torus]]
 * [[Clans]]
 * [[Towns]]
+* [[Patrons of Torus]]
 
 !! Regions
 
@@ -10164,7 +10238,7 @@ The Weal of Baz is a town entirely inhabited by intelligent machines infected wi
 
 Though people are not allowed to enter the town, they are allowed to trade with the residents. Machines at the Weal of Baz have been known to buy metals, minerals, radioactive materials, and savant technology. In exchange they provide tech, weapons, and goods that are manufactured off-planet. It is unknown how the robots are able to obtain goods from off-planet.</pre>
 </div>
-<div created="20200119222733993" creator="Felix" modified="20200224043030456" modifier="Felix" tags="" title="Welcome">
+<div created="20200119222733993" creator="Felix" modified="20200228154454062" modifier="Felix" tags="" title="Welcome">
 <pre>Welcome to the Torus Wiki!
 
 Check out these pages to get started:
@@ -10172,6 +10246,10 @@ Check out these pages to get started:
 [[Early History]]
 
 [[Major Planets]]
+
+[[FTL Travel]]
+
+[[Stroke of Genius]]
 
 [[Glossary]]</pre>
 </div>
