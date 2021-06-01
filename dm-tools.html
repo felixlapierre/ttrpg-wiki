@@ -151,6 +151,8 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/showeditpreview</li>
+
 <li>$:/status/RequireReloadDueToPluginChange</li>
 
 <li>$:/StoryList</li>
@@ -159,7 +161,41 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
+<li>Cave Rat</li>
+
+<li>Cloaker</li>
+
+<li>Creature Generator</li>
+
+<li>Creature Template</li>
+
+<li>Earth Elemental</li>
+
+<li>Fire Beetle</li>
+
+<li>Gargoyle</li>
+
+<li>Gelatinous Cube</li>
+
+<li>Goblin</li>
+
 <li>Index</li>
+
+<li>Maggot-Squid</li>
+
+<li>Otyugh</li>
+
+<li>Purple Worm</li>
+
+<li>Roper</li>
+
+<li>Rot Grub</li>
+
+<li>Spiderlord</li>
+
+<li>Troglodyte</li>
+
+<li>Welcome</li>
 
 </ul>
 </p>
@@ -10052,10 +10088,13 @@ Error message and password prompt
 <div created="20210601153128659" modified="20210601153129698" title="$:/SiteTitle">
 <pre>DM Tools</pre>
 </div>
+<div created="20210601200201517" modified="20210601205414859" title="$:/state/showeditpreview">
+<pre>yes</pre>
+</div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div list="Index" title="$:/StoryList">
+<div created="20210601200337501" list="" modified="20210601211627739" title="$:/StoryList">
 <pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.23">
@@ -10167,10 +10206,386 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20210601153221379" modified="20210601153226338" tags="" title="Index">
+<div created="20210601201908870" modified="20210601202357345" tags="location:caverns type:creature" title="Cave Rat">
+<pre>! Description
+
+| Damage | d6, 1 piercing |
+| Tags | Close, Messy |
+| Health | 7 HP, 1 armor |
+| Size | Small |
+| Organization | Horde |
+| Instinct | To devour |
+!! Moves
+
+* Swarm
+* Rip apart something, or someone
+
+!! Questions
+
+* What infestation causes the rats to be here?
+* What is left behind from their last meal?</pre>
+</div>
+<div created="20210601202401797" modified="20210601202608748" tags="location:caverns type:creature" title="Cloaker">
+<pre>! Description
+
+| Damage | d10, ignores armor |
+| Tags | Close |
+| Health | 12 HP, 1 armor |
+| Size | Medium |
+| Organization | Solitary |
+| Instinct | To engulf |
+!! Moves
+
+* Engulf the unsuspecting
+
+!! Questions
+
+* Where is the cloak placed in the room that makes it so inconspicuous?
+* What is left behind from their last meal?</pre>
+</div>
+<div created="20210601201832724" modified="20210601205517764" title="Creature Generator">
+<pre>&lt;ol&gt;
+&lt;$list filter=&quot;[tag[type:creature]sort[title]]&quot;&gt;
+&lt;li&gt;
+&lt;$link to={{!!title}}&gt;
+&lt;$view field=&quot;title&quot;/&gt;</pre>
+</div>
+<div created="20210601202613429" modified="20210601203409660" tags="type:creature" title="Creature Template">
+<pre>! Description
+
+| Damage | DAMAGE |
+| Tags | TAGS |
+| Health | HEALTH |
+| Size | SIZE |
+| Organization | ORG |
+| Instinct | INSTINCT |
+| Special | SPECIAL |
+
+!! Moves
+
+* MOVE1
+
+!! Questions
+
+* QUESTION1</pre>
+</div>
+<div created="20210601202710684" modified="20210601202941108" tags="type:creature location:caverns" title="Earth Elemental">
+<pre>! Description
+
+| Damage | Smash d10+5 |
+| Tags | Reach, Forceful |
+| Health | 27 HP 4 Armor |
+| Size | Huge |
+| Organization | Solitary |
+| Instinct | To show the strength of earth |
+
+!! Moves
+
+* Turn the ground into a weapon
+* Meld into stone
+
+!! Questions
+
+* What called the elemental here? (A summoner, a sacred place of earth)
+* What precious stone or object is embedded in the elemental?
+* What object is embedded in the elemental making it particularly interesting to fight? (A dangerous weapon, explosives, a huge spike)</pre>
+</div>
+<div created="20210601203024132" modified="20210601203423500" tags="type:creature location:caverns" title="Fire Beetle">
+<pre>! Description
+
+A beetle with a glittering carapace. Temperamental, with fire in their belly. Can spit a gout of flame or acid. Swarms can come up from below and destroy entire villages.
+
+| Damage | Flames d6 |
+| Tags | Near |
+| Health | 3HP 3 armor |
+| Size | Small |
+| Organization | Horde |
+| Instinct | To engulf |
+| Special | Full of flames |
+
+!! Moves
+
+* Undermine the ground
+* Burst from the earth
+* Spray forth acid, eating away at metal and flesh
+
+!! Questions
+
+* What has drawn the fire beetles here? (Or is this their nest?)
+* What alchemical component can be salvaged from the beetles?</pre>
+</div>
+<div created="20210601203433675" modified="20210601203728668" tags="type:creature location:caverns" title="Gargoyle">
+<pre>! Description
+
+Guardians bred by Magi of the past with no more castles to guard. They are attracted to ruins, caves, hills, cliffs, and guard them as though their masters yet lived. Good at finding valuables. They're hard to spot and tend to move in packs.
+
+| Damage | Claws d6 |
+| Tags | Close |
+| Health | 3 HP, 2 armor |
+| Size | Medium |
+| Organization | Horde |
+| Instinct | To guard |
+| Special | Wings, Stealthy, Hoarder |
+
+!! Moves
+
+* Attack with the element of surprise
+* Take to the air
+* Blend into stonework
+
+!! Questions
+
+* What nearby stonework are they blending in with?
+* What are the gargoyles protecting? What treasure is nearby?
+* Who created the gargoyles?
+* How is their appearance unique?</pre>
+</div>
+<div created="20210601203916053" modified="20210601204205436" tags="type:creature location:caverns" title="Gelatinous Cube">
+<pre>! Description
+
+Unusually clean tunnels are the sign of a gelatinous cube. Expands to fill a small chamber or corridor and then slides along, eating everything in its path. Cannot eat stone or metal and will often have them floating in its jelly mass.
+
+| Damage | Engulf d10 + 1, ignores armor |
+| Tags | Hand |
+| Health | 20 HP 1 Armor |
+| Size | Large |
+| Organization | Solitary |
+| Instinct | To clean |
+| Special | Stealthy, Gibbous, Transparent |
+
+!! Moves
+
+* Fill an apparently empty space
+* Dissolve
+
+!! Questions
+
+* What signs are there of the cube?
+* What treasure or interesting object is floating in its gelatinous mass? Quest item?
+* What makes this room particularly perfect for a gelatinous trap?</pre>
+</div>
+<div created="20210601204212363" modified="20210601204642763" tags="type:creature location:caverns" title="Goblin">
+<pre>! Description
+
+A species of unknown origin. Goblins never die out, there's just too many of them.
+
+| Damage | Spear d6 |
+| Tags | Close, Reach |
+| Health | 3 HP 1 Armor |
+| Size | Small |
+| Organization | Horde |
+| Instinct | To multiply |
+| Special | Intelligent, Organized |
+
+!! Moves
+
+* Charge!
+* Call more goblins
+* Retreat and return with MANY more
+
+!! Questions
+
+* What nearby creatures do the goblins hate? Who do they serve?
+* What goodies have they gathered from recent raids? Are they fighting over the treasure?
+
+! Govlin Orkaster
+
+//Oh lord, who taught them magic?//
+
+| Damage | Acid orb d10+1 damage ignores armor |
+| Tags | Near, Far |
+| Health | 12 HP 0 Armor |
+| Size | Small |
+| Organization | Solitary |
+| Instinct | To tap power beyond their stature |
+| Special | Magical, Intelligent, Organized |
+
+!! Moves
+
+* Unleash a poorly understood spell
+* Pour forth magical chaos
+* Use other goblins as shields
+
+!! Questions
+
+* What twisted magical item do they use?
+* Who taught them magic?
+* What is their signature spell?</pre>
+</div>
+<div created="20210601153221379" modified="20210601205314755" tags="" title="Index">
 <pre>&lt;$list&gt;
 
 &lt;/$list&gt;</pre>
+</div>
+<div created="20210601210354068" modified="20210601210607059" tags="type:creature location:caverns" title="Maggot-Squid">
+<pre>! Description
+
+Wields a face full of horrible squirming tentacles that feel like lightning when they strike. They inflict paralysis and then chew you up while you're helpless.
+
+| Damage | Chew d6 |
+| Tags | Close |
+| Health | 3 HP 1 Armor |
+| Size | Small |
+| Organization | Horde |
+| Instinct | To eat |
+| Special | Amphibious, Paralyzing Tentacles |
+
+!! Moves
+
+* Paralyze with a touch
+
+!! Questions
+
+* I dunno. What'd they eat?</pre>
+</div>
+<div created="20210601205951115" modified="20210601210623516" tags="type:creature location:caverns" title="Otyugh">
+<pre>! Description
+
+Spends much time submerged in filthy water and enjoys eating garbage. Often grows fat on the offal of people or monster populations. Has barbed tentacles and a razor-toothed maw. Its attacks tend to infect. Its mating call is a horrible, blaring cry similar to a dying elephant or over-eager vulture.
+
+| Damage | Tentacles d10+3 |
+| Tags | Close, Reach, Forceful |
+| Health | 20 HP 1 Armor |
+| Size | Large |
+| Organization | Solitary |
+| Instinct | To foul |
+| Special | Filth Fever |
+
+!! Moves
+
+* Infect something with filth fever
+* Fling someone or something
+
+!! Questions
+
+* Whose garbage is the otyugh subsisting on?
+* What precious item is among its horde of garbage?
+* Does it have a mate, a nest, babies?
+</pre>
+</div>
+<div created="20210601210651403" modified="20210601210832298" tags="type:creature location:caverns" title="Purple Worm">
+<pre>! Description
+
+| Damage | Bite d10 + 5 |
+| Tags | Reach, Forceful |
+| Health | 20 HP 2 Armor |
+| Size | Huge |
+| Organization | Solitary |
+| Instinct | To consume |
+| Special | SPECIAL |
+
+!! Moves
+
+* Swallow whole
+* Tunnel through stone and earth
+
+!! Questions
+
+* Where do its tunnels lead?</pre>
+</div>
+<div created="20210601210836099" modified="20210601211134859" tags="type:creature" title="Roper">
+<pre>! Description
+
+Looks like a rocky formation (stalagmite or stalactite). A mass of thin, whipping tentacles erupts from its hide and lashes its prey before dragging it into the mouth,
+
+| Damage | Bite d10+1 |
+| Tags | Close, Reach |
+| Health | 16 HP 1 Armor |
+| Size | Large |
+| Organization | Solitary |
+| Instinct | To ambush |
+| Special | Rock-like Flesh |
+
+!! Moves
+
+* Ensnare the unsuspecting
+* Burds from the earth
+* Spray forth acid, eating away at metal and flesh
+
+!! Questions
+
+* Has someone placed it there to guard something?</pre>
+</div>
+<div created="20210601211203163" modified="20210601211429555" tags="type:creature location:caverns" title="Rot Grub">
+<pre>! Description
+
+It burrows into skin, organs, eyeballs, grow there, and then in a horrific display, burrow their way out.
+
+| Damage | Burrow d6-2 damage |
+| Tags | Hand |
+| Health | 3 HP 0 Armor |
+| Size | Tiny |
+| Organization | Horde |
+| Instinct | To infect |
+| Special | Burrow into flesh |
+
+!! Moves
+
+* Burrow under flesh
+* Lay eggs
+* Burst forth from an infected creature
+
+!! Questions
+
+* Why the hell are you using these? They're disgusting.
+* Who is infected by the rot grub? A living person or a corpse? A monster?</pre>
+</div>
+<div created="20210601211433602" modified="20210601211903387" tags="type:creature location:caverns" title="Spiderlord">
+<pre>! Description
+
+Even spiders have their gods, whispered to in webs with little praying arms
+
+| Damage | d8+4 |
+| Tags | Close, Reach |
+| Health | 16 HP 3 Armor |
+| Size | Large |
+| Organization | Solitary |
+| Instinct | To weave literal and metaphorical webs |
+| Special | Burrowing, Devious, Intelligent |
+
+!! Moves
+
+* Enmesh in webbing
+* Put a plot into motion
+
+!! Questions
+
+* What plots do the spiderlord have in motion?
+* How is their lair protected?</pre>
+</div>
+<div created="20210601211610099" modified="20210601212355491" tags="type:creature location:caverns" title="Troglodyte">
+<pre>! Description
+
+The long-forgotten ancestors who dwell in caves and the wild parts of the world. They eat their meat raw with sharp-nailed hands and jagged teeth. They strike out at frontier villages wielding clubs and in overwhelming numbers to seize cattle, tools, and prisoners to drag into the hills. 
+
+| Damage | Club d8 |
+| Tags | Close |
+| Health | 10 HP 1 Armor |
+| Size | Medium |
+| Organization | Group |
+| Instinct | To prey on civilization |
+| Special | Organized |
+
+!! Moves
+
+* Raid and retreat
+* Use scavenged weapons or magic
+
+!! Questions
+
+* What valuable items or magic have they stolen?
+* Where is their settlement?</pre>
+</div>
+<div created="20210601195638606" modified="20210601205532868" tags="" title="Welcome">
+<pre>! Generators
+
+The generators are used to answer questions like
+
+* What creature or person resides in this place? [[Creature Generator]]
+* What interesting location is over the next hill? [[Wilderness Location Generator]]
+* What point of interest is on the corner of this street? [[City Location Generator]]
+* Who is this NPC? [[NPC Generator]]
+* What treasure is here? [[Treasure Generator]]</pre>
 </div>
 
 
