@@ -155,6 +155,10 @@ Error message and password prompt
 
 <li>$:/state/showeditpreview</li>
 
+<li>$:/state/tab--1963855381</li>
+
+<li>$:/state/tab-1749438307</li>
+
 <li>$:/state/tab/sidebar--595412856</li>
 
 <li>$:/status/RequireReloadDueToPluginChange</li>
@@ -164,6 +168,10 @@ Error message and password prompt
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
+
+<li>$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth</li>
+
+<li>$:/themes/tiddlywiki/vanilla/options/sidebarlayout</li>
 
 <li>Action adjucation</li>
 
@@ -179,7 +187,15 @@ Error message and password prompt
 
 <li>Cloaker</li>
 
+<li>Combat: Battlefields &amp; Ambiance</li>
+
+<li>Combat: Designing the encounter</li>
+
+<li>Combat: Picking Your Enemies</li>
+
 <li>Coutal</li>
+
+<li>Creating Problems</li>
 
 <li>Creature Generator</li>
 
@@ -196,6 +212,10 @@ Error message and password prompt
 <li>Earth Elemental</li>
 
 <li>Ekek</li>
+
+<li>Encounters: Building Encounters</li>
+
+<li>Encounters: Running Encounters</li>
 
 <li>Fire Beetle</li>
 
@@ -225,6 +245,8 @@ Error message and password prompt
 
 <li>Mundane Treasure Generator</li>
 
+<li>Murky Mirror Player vs Character</li>
+
 <li>Narration</li>
 
 <li>NPC Interactions</li>
@@ -249,11 +271,15 @@ Error message and password prompt
 
 <li>Troll</li>
 
+<li>Turning Points (Narrative Structure)</li>
+
 <li>Weapon Enhancements</li>
 
 <li>Welcome</li>
 
 <li>Will-o-wisp</li>
+
+<li>XP</li>
 
 </ul>
 </p>
@@ -10148,8 +10174,14 @@ Error message and password prompt
 <div created="20210602032542597" modified="20210602032542597" title="$:/state/Excise/-1283007020/type">
 <pre>link</pre>
 </div>
-<div created="20210601200201517" modified="20211009032619847" title="$:/state/showeditpreview">
-<pre>no</pre>
+<div created="20210601200201517" modified="20211013031939951" title="$:/state/showeditpreview">
+<pre>yes</pre>
+</div>
+<div created="20211013031852750" modified="20211013031859269" title="$:/state/tab--1963855381">
+<pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
+</div>
+<div created="20211013031850150" modified="20211013031850150" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20210602003446619" modified="20210602003446619" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Recent</pre>
@@ -10157,7 +10189,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div list="[[Action adjucation]] Welcome" title="$:/StoryList">
+<div created="20211013031848551" list="[[Combat: Designing the encounter]] Welcome" modified="20211013035345281" title="$:/StoryList">
 <pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.23">
@@ -10269,7 +10301,13 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20211009041549126" modified="20211009041915810" tags="" title="Action adjucation">
+<div created="20211013031927635" modified="20211013031928649" title="$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth">
+<pre>500px</pre>
+</div>
+<div created="20211013031906396" modified="20211013031906396" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
+<pre>fluid-fixed</pre>
+</div>
+<div created="20211009041549126" modified="20211013002419728" tags="guide" title="Action adjucation">
 <pre>* The players state an action, which implies
 ** A goal, something the players want to accomplish
 ** An approach, a method by which they can achieve their goal
@@ -10399,6 +10437,154 @@ Error message and password prompt
 * Where is the cloak placed in the room that makes it so inconspicuous?
 * What is left behind from their last meal?</pre>
 </div>
+<div created="20211013034111531" modified="20211013035342306" tags="guide" title="Combat: Battlefields &amp; Ambiance">
+<pre>!!! Caveats
+
+* This is hard work (it takes time but it's worth it)
+* Know your game (the rules, the options, the capabilities)
+* You need to challenge and endanger your PCs, make them work for their victories
+
+!!! ABCs of combat design
+
+* Ambiance
+* Battlefield
+* Creatures
+
+!! Battlefield
+
+* Terrain changes the balance of the fight (ex. melee vs ranged advantage)
+* Terrain creates choices: take damage through danger terrain but get closer to enemy
+
+!!! Types of terrain
+
+* Walls and obstructions: Block movement and sight
+* Chokepoints and funnels
+* Fogs, Darkness, Obscurement: Block sight but not movement
+* Statues, Pillars, and Cover: Just obstruction that's cool
+* Pits, Ravines, Chasms, Etc: Block movement but not attacks
+* Fire, Lava, Acid, Hazards: Punish anyone who moves in
+* Traps: Invisible pieces of terrain
+** They should change the battlefield, not just do damage and thats it
+* Impeding terrain like rubble: Just creates movement distance without increasing range
+* Tables, Chairs, Barrels and props: Variable, requires creativity
+* Distance: Affects the balance of ranged vs. melee
+* Open Space: Serve the side with numerical advantage since you can surround/flank
+* Vectors of Approach: A direction from which a group can attack another
+
+Consider how this kind of thing affects AOE spells, sneak attacks, etc.
+
+!!! Mapping
+
+* Don't use graph paper, you can estimate distances in terms of how many moves are needed to cover a distance
+* You can start by writing generic &quot;obstruction/obscurement/pit/hazard&quot; and fill them in with the specific thing later.
+
+!! Ambiance
+
+The one-second pitch for the battle.
+
+* Starting positions
+** Are you above the enemy who are bunched in the middle of a space, and they have to scatter?
+** Are you immediately surrounded as you enter an encounter, with enemies staring down at you?
+** Advancing slowly and methodically vs surging forward
+* Relative numbers and power levels
+* Surprise
+* How far apart are the forces? Is one side outflanked? Does one have an advantageous position? Is one side surprised and flanked?
+* Basically, and the PCs at an advantage, disadvantage, or neutral?</pre>
+</div>
+<div created="20211013035357569" modified="20211013041238070" tags="" title="Combat: Designing the encounter">
+<pre>!!! Platonic Reality
+
+Imagine a party with the classic members: fighter, cleric, rogue, wizard, ranger
+
+* Fighter has high survivability and is a powerful melee fighter. Wants to be near foes and control an area.
+* Cleric has high survivability, less good melee combatant, empowers the party, supporting role.
+* Rogue has moderate survivability, high mobility. Can dish out heavy damage if they're free to decide how to engage. If pinned or can't act freely, at a disadvantage. Most efficient at short range or close, but needs an ally to assist if close.
+* Ranger has mobility, survivability, and versatility. Can be good close or far, but not as strong as others like Rogue.
+* Wizard is a glass cannon. Huge damage, can disable or weaken enemies over an area. Cannot stand toe-to-toe with an enemy, and loses versatility when they have to work around the party.
+
+Don't match it directly to your party or it's unfair.
+
+!! How to design the combat encounter
+
+* Pick a seed
+* Consider the platonic reality of a creature
+** The strategy, tactics, what it is capable of
+** Cloud of creatureness (don't know how many yet)
+* Put everything else aside in reserve until you need it
+* Create the concept of a battle
+** Place the creature cloud, the party, and optionally some clouds of terrain that match the ambiance you're going for
+* Imagine how things play out when the Platonic Party encounters the creatures. What would the players do?
+* Then, make life harder for the players based on what you imagine the plan would be.
+* Run through the platonic reality again
+** Keep an eye out for issues (uncontested victory or unmitigated slaughter)
+** Tinker some more if you want (if there's a PC who has nothing to do, or if you want the encounter to be easier/harder) but you can stop 
+** Do not block a second-order strategy
+* Run the numbers to make sure the encounter fits your difficulty budget
+* Finalize the map (Replace terrain concepts with real terrain)
+* Figure out how the fight starts
+
+Build fair, then play to win.</pre>
+</div>
+<div created="20211013031842850" modified="20211013035335420" tags="guide" title="Combat: Picking Your Enemies">
+<pre>Three shocking facts
+
+* There is no such thing as a combat encounter
+** Combats are a way to resolve an encounter. They need dramatic question, conflict, etc.
+* Rules for combat encounters are unnecessary
+* You should avoid using them whenever possible
+** Run a regular encounter whenever you can.
+** For a colossal giant or a zombie horde, it would be boring as hell to do a combat encounter
+** Combat rules are suited when you have two mostly equal forces.
+
+Combat ends whenever one side is incapable of continuing the fight, or both sides are unwilling to continue the fight. At the start of every round, ask yourself for each creature if they are going to continue to fight.
+
+!! Picking Your Enemies
+
+''Summary''
+
+* Build an encounter, THEN build a combat
+* Add more monsters and more variety whenever possible
+* Encounter budgets are an OK start, but you need to fiddle more
+* Think of the goals, strategy and tactics
+* Everything feeds everything else
+* The best advice is reversible (anything here that makes an encounter hard can also make it easy
+
+!!! Starting
+
+* Feedback Loops: Designing an encounter feeds into designing an adventure and vice versa. Be willing to zoom out and see how a campaign decision affects an encounter or vice versa.
+* Sometimes you start with the enemies, sometimes with the battlefield, sometimes with a situation.
+* You can also make a short list of game elements that you want to use in the adventure, and draw from that list first when building an encounter. Use the list in other encounters to help tie everything together.
+
+!!! Difficulty
+
+* The encounter building rules are inadequate since difficulty depends not only on monsters but also on terrain, situation, weapons, setup, surprise.
+* Monster synergies affect this a lot too.
+
+!!! Variety
+
+One single monster is boring. One single monster type is boring. Try to have as many monsters as there are PCs in the fight, and at least two different kinds of monsters
+
+* Several monsters gives progress indicators
+* Alternating between PC and monster turns is better for pacing.
+
+!!! Goals, Strategies, Tactics
+
+* Individual monsters may have different goals even when they are working together
+** Hobgoblins are disciplined and will sacrifice for the group. Goblins are cowardly and will run, even when paired with hobgoblins
+** Ghouls will drag off a paralyzed meal for themselves
+* Tactics are spelled out by the stat blocks and abilities. These tactics suggest certain higher-level strategies.
+** Hobgoblins deal more damage when near their allies so they will stay grouped together
+** Goblins can disengage for free so they will probably use ranged attacks then retreat with disengage to stay out of harm's way
+* Some monsters have synergistic strategies, some have anti-synergies. This can make encounters harder or easier.
+
+!!! Changes
+
+* Enemies can adopt different strategies as the situation changes
+** They may focus a specific glass-cannon enemy
+** They may see their goal is ruined and the fight has to be abandoned
+** You can pre-plan changes, like reinforcements, or environmental effects.
+* Outcomes of an encounter, like escaping enemies, can change future encounters or affect the rest of the adventure.</pre>
+</div>
 <div created="20210602005303924" modified="20210602005552829" tags="type:creature location:swamp" title="Coutal">
 <pre>//A serpent in flight on jeweled wings. It glows with a soft light, as the sun does through stained glass. Bright, wise, and calm, a Coutal often knows many things and sees many more. You may be able to trade with it in exchange for a favor. They seek to cleanse and purge and make of this dark world a better one. //
 
@@ -10422,7 +10608,30 @@ Error message and password prompt
 * What god is the coutal affiliated with.
 * Does it have a holy mission.</pre>
 </div>
-<div created="20210601201832724" modified="20210601205517764" title="Creature Generator">
+<div created="20211013003417794" modified="20211013004553968" tags="guide" title="Creating Problems">
+<pre>Problem VS Puzzle:
+
+* A puzzle has one specific solution that you want the players to find. A problem is open-ended, 
+just like an encounter, which has no particular solution in mind.
+
+How to create a problem:
+
+* Start with a ''goal'': something the players want
+* Figure out an ''obstacle'' preventing the players from getting it.
+* Obfuscate
+** Figure out the most obvious or likely strategies for bypassing the obstacle
+** Come up with reasons the players can't just do that.
+** Repeat, but limit how many layers of obfuscation you add, or the problem will be impossible
+* Give them some tools
+** Obvious tools that interact with the obstacle or the obfuscations. This makes the problem easier.
+** Apparently useless tools just to see how the players can find a way to use them. This makes the problem more complicated since the players might waste time trying to use them, or think they have a deliberate purpose to solving the puzzle.
+** Find ways to add obfuscation to the tools (a pool of mud to mask your smell but that's also boiling hot and dangerous)
+
+You'll need a very clear idea of how everything works so that you can describe it right and answer all the questions the players have.
+
+Also, allow players to totally circumvent your problem with a good spell or strategy.</pre>
+</div>
+<div created="20210601201832724" modified="20211013002358618" title="Creature Generator">
 <pre>&lt;ol&gt;
 &lt;$list filter=&quot;[tag[type:creature]sort[title]]&quot;&gt;
 &lt;li&gt;
@@ -10578,6 +10787,115 @@ Error message and password prompt
 
 * Where is their settlement?
 * What powerful creature do they serve?</pre>
+</div>
+<div created="20211013011230749" modified="20211013012902072" tags="guide" title="Encounters: Building Encounters">
+<pre>!! Steps
+
+* ''Seed'': The starting point of your encounter. The idea that you will build off.
+* ''Dramatic Question'': What are the PCs trying to accomplish?
+** If you want to limit PCs, you can assume things about how they will resolve the question
+** Reread the question, rephrase it if it's too restricting.
+* ''Hook'': Present the question, give them a reason to care about answering.
+** Ex. Describe scene, monsters drop from ceiling, they hiss at you, and are about to lunge.
+* ''Primary Source of Conflict''
+* And you're done!
+
+Make sure you know when to end the encounter (when the question is answered). Use structure elements if that's what you need to help adjucate.
+
+Example:
+&gt; The tunnel emerges into the long side of a wide, oval cave, about 60 feet long and 40 feet across. Thanks to your light spell, you can see only one other exit, a wide tunnel directly across from you, about 40 feet away. Milling about on the ceiling of the cave, stringing sticky strands of glistening silk between the cave growths is a colony of spiders. They either have not noticed yet or are not bothered by your presence at the entrance to their cave. They continue their work on their webby nest.
+
+Here, the question is &quot;can they cross the cavern&quot; but it's very open-ended with what options they can take.
+
+!!! Good Hooks
+
+* Shows the players one or two obvious paths to the goal
+* Creates exigency, a need to act, urgency.
+
+!!! Decision Points
+
+Decision points are spots where players are asked to choose how to resolve the encounter (What do you do?). Does your encounter have enough of them?
+
+* Can choose which conflict to resolve, or choose how to resolve a particular conflict.
+* For combat encounters this is easy, you often pick which enemy to attack or whether to heal a friend or whatever.
+* For non combat, non-interaction encounters it's harder.
+* More decision points = longer/weightier encounter. Sometimes less is fine. Sometimes you want more.
+
+How to add decision points?
+
+* Add new sources of conflict, or
+* Have your existing sources of conflict do things to complicate the situation
+
+!!! Visualization
+
+If you can close your eyes and visualize the encounter, you can answer any question the players ask about it. Visualize, then narrate, then adjudicate. You can answer questions about things you didn't even realize you know.
+
+!!! Personification
+
+You can create dynamic conflicts by personifying stuff. Everything in the scene is an extension of the conflict and could act against the players. Example, what can a cliff to do make climbing down hard? It could start to rain, a rock could come loose, a vicious creature could pop out of its nest, a thorny vine could be hidden on a handhold, bats could pop out of a concealed cave.
+
+!!! Other Notes
+
+* More options is not more decision points. That's one decision point with no option. 
+* Sometimes you might have to tell players an option is available to them. Like, in a chase, tell players they could climb onto the roofs and chase from there.
+* Try to add as few structures or unique rules as possible and expose your players to few/none of them (don't tell them how it works behind the scenes).</pre>
+</div>
+<div created="20211013005139317" modified="20211013011214877" tags="guide" title="Encounters: Running Encounters">
+<pre>''An encounter is a sequence of actions that answer a dramatic question by resolving one or more conflicts''
+
+!! Process
+
+* First, identify the ''dramatic question'': a statement of the party's objectives, as a yes or no question
+* Next, identify ''sources of conflict'': a reason why a thing will somehow prevent the heroes from answering the question
+* If necessary, create a structure or scoreboard, but don't show it to the players
+* Tell the players what is going on; narrate the opening of the scene. Mention the object of the dramatic question. Pick out the obvious sources of conflict and describe them.
+* Ask the players what they do
+* After each action, check if the players should now know the answer to the dramatic question, and check if the conflicts have been resolved. If either, narrate the end of the scene and call attention to the answer to the dramatic question. Otherwise, ask for another action and continue.
+* Keep an eye out for any players that have run out of decision points, and wrap up if that's the case for too many players.
+
+!!! Dramatic Question
+
+Statement of the heroes' current objective in the scene as a yes or no question. Does Indiana Jones escape from the collapsing temple?
+
+* If there's no dramatic question, there's no encounter. If you don't have one, don't run an encounter. If you aren't sure what the players' goal is, ask them.
+* The answer to the question needs to be uncertain. If it's obvious (Can the players find an inn?) then don't bother with an encounter.
+
+The encounter ends when the players know the answer to the dramatic question
+
+!!! Conflict
+
+A conflict occurs when the heroes and some other force are in opposition. 
+
+* A spider in a room is not a conflict. A spider protecting its lair and eggs, which the players must cross through, is a conflict. A monster is not a conflict, but a hungry monster can be a source of conflict.
+* If a spider is protecting its layer, there is no more conflict once the players cross through.
+
+Consider the motives of monsters (and inanimate things like rivers, doors, nature) to figure out where the conflict comes from. You can ascribe motives and desires to abstract conflicts and inanimate objects. A river will sweep you away, or drown you, it lacks sympathy or care, and kills those that who not respect it.
+
+The conflict is resolved as soon as the forces are no longer in opposition, no matter how that happens.
+
+!!!! Multiple Conflicts
+
+You can have orcs trying to kill the party + a forest fire that wants to burn everything + rain that blinds everyone and prevents missile combat. The orcs want to kill the players, but they also want to live, so they're in conflict with the fire too. More complex encounters have many sources of conflict that may collide with each other.
+
+!!!! Internal Conflicts
+
+Monsters can have internal conflicts, like their desire to kill the players vs their desire to live. You can also try to create internal conflicts for the players, but that's harder and you can't count on it.
+
+!!! Decision Points
+
+* Once an encounter has no more decision points, you should probably end it. End it by removing any remaining sources of conflict and telling the players the answer to the dramatic question.
+* Open new encounters if the players create them / have more dramatic questions to be answered.
+* If a player runs out of decision points (there is nothing left to decide or there are few practical options) they will lose interest very soon. Resolve the encounter within a few rounds.
+* Every encounter has a time limit and decision points dwindle until it becomes boring. 
+
+''Always be willing to end an encounter early''
+
+!!! Structures and Scoreboards
+
+* If you want to create structure on the fly, you can create scales from 1 to 10, start somewhere in the middle and end the encounter when a scale reaches an end. For example, a scale of fear for enemies which, if it reaches 10, they flee. Anything that affects how afraid the orcs are (killing a party member, losing an orc, getting intimidated) moves the scale.
+* You can create new scores on the fly in response to what the players do
+
+''Remember, sometimes the players will just win the encounter with one action/spell, and that's okay, let them have it.''</pre>
 </div>
 <div created="20210601203024132" modified="20210601203423500" tags="type:creature location:caverns" title="Fire Beetle">
 <pre>! Description
@@ -10914,7 +11232,21 @@ Wields a face full of horrible squirming tentacles that feel like lightning when
 ** Rations
 ** Halfling Pipeleaf</pre>
 </div>
-<div created="20211009031236070" modified="20211009032847028" tags="" title="Narration">
+<div created="20211013001332592" modified="20211013002046572" tags="guide" title="Murky Mirror Player vs Character">
+<pre>There is no line to draw between the player and the character. You can't compartmentalize
+
+* Player knowledge and character knowledge don't need to be separate
+* If players are strategizing, assume the characters are sharing that same info
+* If the players are sitting around and talking, so are the characters. So time can pass, and things can come investigate these people who are just standing around.
+* Don't say anything out loud that you don't want people overhearing
+* If players discuss tactics in a fight, then their characters are also discussing, and enemies can overhear. Enemies should also discuss tactics out loud.
+* If a player learns something in a knowledge check, assume the characters shared it
+
+You can't say stuff about NPCs because you &quot;only meant it out of character&quot;. If you want other players to hear it, you had to say it, and if the players can hear it, so can the characters.
+
+On the flip side, you have to warn the players if they're about to do something that will put them in serious trouble.</pre>
+</div>
+<div created="20211009031236070" modified="20211013002426638" tags="guide" title="Narration">
 <pre>* Be concise and let people's imagination fill in the gaps
 * These examples have crazy prose but that's not necessary and it's better to be fluid.
 
@@ -10952,10 +11284,10 @@ Outcomes of actions
 
 * Describe the immediate result of the outcome / any consequences.</pre>
 </div>
-<div created="20211009030859906" modified="20211009030909598" tags="" title="NPC Interactions">
+<div created="20211009030859906" modified="20211013002409178" tags="guide" title="NPC Interactions">
 <pre>From the Angry GM 
 
-Determine what the NPC's Incentives and Objections are
+''Incentives and Objections''
 
 * Incentives: What makes them want to help the party?
 * Objections: What makes them distrust or not want to help the party?
@@ -10980,6 +11312,8 @@ If the interaction continues after a failed roll, have this affect how the NPC i
 Make sure to explain why stuff failed, or why a success didn't lead to the players getting what they want just yet, by tying it to the objections and incentives. So they might say &quot;I can't help you because xxx.&quot; Or &quot;I can't help you because I want to see justice done but I don't believe you can do it&quot;. Response, Reason, Opening. 
 
 The key is that the players have an opening to follow up on, or are shown that the interaction can't proceed further.
+
+''How to define an npc's personality''
 
 * Personality (1 word)
 * Posture (Body language)
@@ -11219,6 +11553,33 @@ The long-forgotten ancestors who dwell in caves and the wild parts of the world.
 * What strange deformation does the troll have as a result of faulty regeneration?
 * What treasure does the troll carry? What weapon?</pre>
 </div>
+<div created="20211013004640506" modified="20211013005105916" tags="guide" title="Turning Points (Narrative Structure)">
+<pre>!! Turning Points that Must Exist
+
+* Call to adventure
+* Climax
+
+!! Turning Points that Should Exist
+
+* A new life / New opportunity (at the beginning)
+* Making things personal (in the middle)
+* Big Screw / Final Test (before the climax)
+** If the players overcome the test, they're ready for the climax. If they don't, they have to go into the climax at their lowest point.
+
+!! Turning Points that Could Exist
+
+* Overworld
+** Shove out the door
+** It's dangerous to go alone, take this
+** Teacher appears
+* Underworld
+** Guardian at the gate / Into the underworld
+** Trials and tribulations
+** Out through the in door (Crossing back into the overworld)
+** You'll never escape (as they try to leave) 
+
+</pre>
+</div>
 <div created="20210602033707049" modified="20210602034638709" title="Weapon Enhancements">
 <pre>* ''Recall'': With a single spoken word, the weapon travels through the air or teleports to the user's hands.
 * ''Shapeshift'': The weapon can shift between similar forms (a sword can become a dagger, shortsword, longsword or greatsword; a bow can become a crossbow or longbow or shortbow; a battleaxe can become a handaxe or halberd, etc)
@@ -11228,7 +11589,7 @@ The long-forgotten ancestors who dwell in caves and the wild parts of the world.
 * ''Merciful'': This weapon only deals nonlethal damage.
 * ''Throwing'': Allows a melee weapon to be thrown up to 10 feet with no penalty.</pre>
 </div>
-<div created="20210601195638606" modified="20211009032857971" tags="" title="Welcome">
+<div created="20210601195638606" modified="20211013002452516" tags="" title="Welcome">
 <pre>! Generators
 
 The generators are used to answer questions like
@@ -11241,8 +11602,13 @@ The generators are used to answer questions like
 
 General guides:
 
-* [[NPC Interactions]]
-* [[Narration]]</pre>
+&lt;ul&gt;
+&lt;$list filter=&quot;[tag[guide]sort[title]]&quot;&gt;
+&lt;li&gt;
+&lt;$link to={{!!title}}&gt;
+&lt;$view field=&quot;title&quot;/&gt;
+&lt;/$link&gt;
+&lt;/li&gt;</pre>
 </div>
 <div created="20210602021025276" modified="20210602021330462" tags="type:creature location:swamp" title="Will-o-wisp">
 <pre>//Spot a lantern floating in the darkness, lots traveler in the swamp. Hope - a beacon of shimmering light. You call out to it, but there's no answer. It begins to fade and so you follow, sloshing through the muck, tiring at the chase, hoping you're being led to safety. Such a sad tale that always ends in doom. There creatures are a mystery - some say they're ghosts, others say they're beacons of faerie light. Nobody knows the truth. They are cruel, however.//
@@ -11264,6 +11630,25 @@ General guides:
 
 * What trap does the will-o-wisp lead to?
 * What treasure was left behind by the previous unfortunate adventurers?</pre>
+</div>
+<div created="20211013002534633" modified="20211013003324512" tags="guide" title="XP">
+<pre>* Milestone leveling is less fun for the players because getting XP feels good
+** Lets players track how close they are to the next level
+** Tells the players their advancement is directly tied to what they do
+** Allows the GM to drive a certain style of play by giving more rewards for particular styles, such as sparing enemies versus killing them.
+* Leveling up too fast is bad
+** Need one session to learn the new abilities and readjust, then another session where you're comfortable and can kick ass with their abilities
+** Some levels in D&amp;D take more XP than others and that's deliberate, those are the levels where you have the most stuff to get used to.
+
+So, how do you do XP right?
+
+* Don't track XP for each monster. Just give out a quantity based on whether it was an easy, medium or hard encounter. Give no XP if they lose, and give less XP if they take a lot of damage or barely scrape by.
+* Reward XP for non-combat encounters that involved a meaningful risk of failure (more XP for higher risk)
+* On certain story milestones, reward XP to commemorate the occasion.
+** Give XP equivalent to an easy/medium encounter for optional milestones. Give more for big story milestones.
+
+You'll probably do 5-8 total encounters (including combat, obstacles, social interactions, etc). 2-3 should be easy, one should be hard, the rest should be medium. With one or two milestones, you're about on target and should level up every 2 sessions.
+</pre>
 </div>
 
 
