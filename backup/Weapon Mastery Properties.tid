@@ -1,0 +1,18 @@
+created: 20251017042503657
+modified: 20251125185153067
+tags: 
+title: Weapon Mastery Properties
+
+These properties are only available if specified by another move such as [[Weapon Expertise]] or [[Graceful Strikes]]
+
+* ''Sword'' / ''Greatsword'': Deal 1d4 bonus damage
+* ''Mace ''/ ''Hammer'': Move enemies a short distance after hitting them
+* ''Axe'' / ''Morningstar'': Reduce an enemy's Armor by 1 //after// hitting them and dealing damage
+* ''Spear'' / ''Lance'': Ignore an enemy's Armor when dealing damage to them
+* ''Polearm'' / ''Halberd'': You may [[Clash]] with an opponent that is a short distance away
+* ''Staff'' / ''Shield'': Inflict the Prone condition on enemies after hitting them. They remain prone as long as you remain in melee range with them.
+* ''Scimitar'' / ''Rapier'': Disarm an enemy after hitting them
+* ''Flail'' / ''Whip'': Inflict the Immobilized condition on an enemy after hitting them. They remain immobilized as long as your weapon remains wrapped around them.
+* ''Handaxe'' / ''Javelin'': You can Volley using this weapon, adding +STR instead of +DEX to the roll. 
+
+ 

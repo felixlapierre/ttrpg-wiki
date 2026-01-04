@@ -1,0 +1,7 @@
+created: 20251211032113718
+modified: 20251211170619510
+shorthand: Imbue a Magic move into your weapon, rolling +Str and dealing bonus damage
+tags: [[class move]] class:warrior
+title: Imbued Strike
+
+When you ''imbue your weapon with the power of a [[Magic]] move that targets creatures'', you may roll +Str instead of [[+Magic]]. One creature targeted by the spell within [[Melee Distance]] takes 1d6 [[Bonus Damage]]

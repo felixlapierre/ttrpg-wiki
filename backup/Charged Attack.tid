@@ -1,0 +1,12 @@
+created: 20251211041856614
+modified: 20260104202546175
+shorthand: Deal a Critical Hit when you take time to put all your energy into a move
+tags: [[class move]]
+title: Charged Attack
+
+When you ''spend time putting all your focus and energy into a move'', [[Focus]] and wait for all other creatures to make their moves. Anytime after you've finished waiting, make any other Move. If it hits, choose one:
+
+* The move is a [[Critical Hit]]
+* The move's non-damaging effects are amplified
+
+You lose focus on this move if you make any move other than [[Resist]]ing with [[Disadvantage]]. Also lose Focus if you take any damage, move, or suffer any [[Condition]].

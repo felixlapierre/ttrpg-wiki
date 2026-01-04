@@ -1,0 +1,7 @@
+created: 20251119193908211
+modified: 20251209221306777
+shorthand: Extend the range and damage of spells by firing them as arrows
+tags: [[class move]] class:archer
+title: Magic Arrow
+
+When you ''launch an arrow imbued with the power of a [[Magic]] move'', roll +Dex instead of [[+Magic]]. The effect instead originates from any creature or location you could shoot with an arrow. One creature targeted by the spell takes 1d4 [[Bonus Damage]].

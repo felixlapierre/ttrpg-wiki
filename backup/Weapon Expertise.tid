@@ -1,0 +1,9 @@
+created: 20251017043352647
+modified: 20251125185206599
+shorthand: Attacks gain bonus effects depending on the type of weapon used
+tags: [[class move]]
+title: Weapon Expertise
+
+You can use the [[Weapon Mastery Properties]] of the weapons you wield. 
+
+When you make an attack, you can spend 1 [[Power]] to apply another weapon's mastery property to the attack, //in addition to the first//. The first time you use this ability after [[Resting|Rest]], it costs no Power.

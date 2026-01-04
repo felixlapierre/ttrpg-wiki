@@ -1,0 +1,15 @@
+created: 20251018051045590
+damage: d8
+hp: 16+Con
+modified: 20251211042918448
+shorthand: Increase Damage to d8, HP to 16 + CON, use Light Armor 
+table: <table> <tr><th>HP</th><td>{{Combat Training!!hp}}</td></tr> <tr><th>[[Damage Die]]</th><td>{{Combat Training!!damage}}</td></tr> <tr><th>[[Armor]]</th><td>1</td></tr> </table>
+tabled10: <table> <tr><th>HP</th><td>{{Combat Training!!hp}}</td></tr> <tr><th>[[Damage Die]]</th><td>d10</td></tr> <tr><th>[[Armor]]</th><td>1</td></tr> </table>
+tags: [[class move]]
+title: Combat Training
+
+Your base Damage die is a d8, and your Max HP is equal to 16 + CON.
+
+You can wear light armor, such as leather armor, without any penalties (Light armor provides 1 point of [[Armor]])
+
+At level 5, your base Damage die increases to a d10.

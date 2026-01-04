@@ -1,0 +1,16 @@
+created: 20251018051653788
+damage: d10
+hp: 20+Con
+modified: 20251211041349866
+shorthand: Increase Damage to d10, HP to 20+Con, use Heavy Armor and Shields
+table: <table> <tr><th>HP</th><td>{{Combat Veteran!!hp}}</td></tr> <tr><th>[[Damage Die]]</th><td>{{Combat Veteran!!damage}}</td></tr> <tr><th>[[Armor]]</th><td>1, or 2 if holding a [[Shield]]</td></tr> </table>
+tags: [[class move]]
+title: Combat Veteran
+
+//Replaces [[Combat Training]]//
+
+Your base Damage die is a d10, and your Max HP is equal to 20 + CON.
+
+You can wear light or heavy armor, and use a Shield, without any penalties. (See [[Armor]])
+
+At level 5, your base Damage die increases to a d12.

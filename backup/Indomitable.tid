@@ -1,0 +1,11 @@
+created: 20251017233200491
+modified: 20251119205318038
+shorthand: Spend Power to end a Condition affecting you
+tags: [[class move]] class:warrior
+title: Indomitable
+
+//Requires: [[Combat Veteran]]//
+
+At any time, you can spend 1 [[Power]] to end one [[Condition]] affecting you.
+
+If you are at least level 5, end //all// Conditions affecting you instead.

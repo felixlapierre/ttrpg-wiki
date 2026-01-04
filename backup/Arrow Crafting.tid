@@ -1,0 +1,17 @@
+combat: Specific craftable arrows, 3 per rest
+created: 20251113055437872
+modified: 20260104200100894
+shorthand: When you Rest, craft arrows with special effects
+tags: [[class move]] class:archer
+title: Arrow Crafting
+
+Whenever you [[Rest]], you can craft up to 3 special arrows, each with one of the following effects
+
+* ''Lethal:'' Deals 1d4 [[Bonus Damage]]
+* ''Shoving:'' Moves enemies a [[Short Distance]] after hitting them
+* ''Shattering: ''Reduces an enemy's [[Armor]] by 1 //after// hitting them and dealing damage
+* ''Piercing:'' Ignores an enemy's Armor
+* ''Disarming: ''Disarms an enemy
+* ''Snaring'': Inflicts the Immobilized condition as long as the arrow remains embedded in the target
+
+Spend 1 [[Power]] at any time to craft another arrow. All special arrows are destroyed the next time you Rest. 
